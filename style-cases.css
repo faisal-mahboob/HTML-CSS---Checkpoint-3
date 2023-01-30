@@ -1,0 +1,40 @@
+
+
+
+
+.casio-primary-box{
+    display:flex;
+    flex-wrap:wrap;
+    padding:100px 0;
+}
+.casio-div1{
+    width:25%;
+    position:relative;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.casio-image{
+    width:100%;
+}
+.casio-div-box{
+    height:80px;
+    background:white;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:10px 10px;
+    width:80%;
+}
+.casio-caption{
+    font-size:15px;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:5px;
+}
+
+.casio-short{
+    line-height:1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}

@@ -1,0 +1,9 @@
+.about-services{
+    background:url("assets/media/hero/services_hero.jpg") center center no-repeat;
+    background-size:contain;
+    width:100vw;
+}
+
+.services-css{
+    padding-top:100px;
+}

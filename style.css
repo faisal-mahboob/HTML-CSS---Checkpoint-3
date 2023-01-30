@@ -1,0 +1,666 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*Custom styles */
+
+
+/* Custom Resets */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-main {
+    max-width: 1100px;
+    margin-left: 250px;
+}
+
+/* Header styles */
+.header-0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.header-1 {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.header-2 {
+    display: flex;
+    width: 30%;
+    justify-content: end;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.header {
+    background-color: rgb(19, 27, 91);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    height: 40px;
+}
+
+.header-sub {
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-sub1 {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Anchor Tag Styles */
+
+.anchor-1 {
+    color: rgb(19, 27, 91);
+    font-size: 12px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+/* Logo Styles */
+.logo-1 {
+    width: 60px;
+    height: 14px;
+}
+
+/* Button Styles */
+
+.btn {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-1 {
+    color: white;
+    background-color: rgb(253, 101, 107);
+    border: none;
+}
+
+.btn-2 {
+    margin-top: 40px;
+}
+
+.btn-3 {
+    background-color: white;
+    border-color: rgb(253, 101, 107);
+    color: rgb(253, 101, 107);
+    border: 2px solid rgb(253, 101, 107);
+    margin-left: 32px;
+    margin-bottom: 100px;
+}
+
+.btn-4 {
+    background-color: inherit;
+    border-color: rgb(253, 101, 107);
+    color: rgb(253, 101, 107);
+    border: 2px solid rgb(253, 101, 107);
+    margin-top: 30px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    background: url("assets/media/hero/h1_hero.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.hero-0 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-1 {
+    font-size: 11px;
+    color: rgb(32, 182, 57);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.hero-2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+/* Section Team Styles */
+
+.section-team {
+    padding: 100px 0;
+    background-color: rgb(246, 249, 254);
+}
+
+.team {
+    display: flex;
+}
+
+.team-div1 {
+    width: 25%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.team-image {
+    width: 100%;
+}
+
+.caption-team {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 18px 0;
+}
+
+.paragraph-team {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    line-height: 2;
+}
+
+.div-head {
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.25;
+}
+
+.small-hr {
+    width: 70px;
+    border: 1.5px solid rgb(14, 190, 43);
+    margin-right: 60%;
+    margin: 20px 0;
+}
+
+.team-anchor {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.team-d1 {
+    border: 3px solid red;
+    padding: 20px 20px;
+}
+
+/* Trusted Section */
+
+.space-trusted {
+    margin-bottom: 30px;
+}
+
+.section-trust {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding: 100px 0;
+}
+
+.image-trust {
+    width: 40%;
+}
+
+.text-trust {
+    width: 35%;
+    padding: 30px 30px;
+}
+
+.position {
+    position: absolute;
+    left: 320px;
+    bottom: 100px;
+    background: rgb(255, 255, 255, 0.7);
+}
+
+/* Services Styles */
+
+.services {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+.service-section {
+    text-align: center;
+    width: 25%;
+    margin-right: 20px;
+    background-color: rgba(165, 170, 202, 0.05);
+    padding: 40px 20px;
+}
+
+.service-box {
+    display: flex;
+}
+
+.service-icon {
+    font-size: 40px;
+}
+
+.p-service {
+    text-align: justify;
+}
+
+/* Cases styles */
+
+.section-cases {
+    background-color: rgb(246, 249, 254);
+    padding: 120px 0;
+}
+
+.cases {
+    width: 50%;
+    padding: 30px 30px;
+}
+
+.cases-section {
+    display: flex;
+}
+
+.case-box {
+    display: flex;
+    width: 50%;
+}
+
+.case-img {
+    width: 40%;
+    margin-right: 10px;
+}
+
+/* Testimonial Styles */
+
+.testimonial-image {
+    width: 70px;
+    height: 70px;
+}
+
+.block-testimonial {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.star-testimonial {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    width: 40%;
+    padding: 30px 0;
+}
+
+.yellow-star {
+    color: rgb(221, 255, 0);
+}
+
+.testimonial-wrapper {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.person {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.company-theme {
+    color: rgb(130, 94, 94);
+}
+
+/* News Section styles */
+
+.category-news {
+    font-size: 11px;
+    color: rgb(253, 121, 127);
+}
+
+.news-time {
+    color: rgb(204, 213, 223);
+    font-size: 11px;
+}
+
+.news-div {
+    padding: 20px 0;
+    background-color: rgb(252, 249, 255);
+}
+
+.flex-news {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+/* Call Back Styles */
+
+.section-call {
+    background-color: rgb(1, 45, 91);
+    padding: 100px 0;
+}
+
+.call-back-box {
+    display: flex;
+    color: white;
+}
+
+.box {
+    width: 25%;
+}
+
+.box2 {
+    width: 50%;
+    margin-left: 80px;
+
+
+}
+
+.call-back {
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.25;
+    padding-bottom: 20px;
+}
+
+.personal-info {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.personal-info ::placeholder {
+    color: white;
+}
+
+.input-info {
+    width: 45%;
+    height: 30px;
+    background: inherit;
+    border: 1px solid rgb(34, 79, 125);
+    border-radius: 5px;
+    margin-right: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10px;
+    font-size: 11px;
+}
+
+
+.input-service {
+    background-color: inherit;
+    width: 60%;
+    height: 30px;
+    border: 1px solid rgb(34, 79, 125);
+    border-radius: 5px;
+    margin-right: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10px;
+    font-size: 11px;
+    color: rgb(104, 132, 160);
+}
+
+.service-info {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+/*Footer Styles*/
+
+.footer1-box {
+    width: 20%;
+}
+
+.logo-image2 {
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-p {
+    margin-bottom: 30px;
+}
+
+.icon-flex {
+    display: flex;
+}
+
+.icon2 {
+    margin-right: 10px;
+}
+
+.footer-cap {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+li{
+    color: rgb(160, 165, 175);
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    line-height:1.5;
+    margin-bottom: 10px;
+}
+
+.footer-flex {
+    display: flex;
+    padding: 100px 0;
+}
+
+.footer2-box {
+    margin-left: 100px;
+}
+
+.footer3-box {
+    margin-left: 70px;
+}
+.foothr{
+    width:800px;
+}
+
+.footerhr {
+    border:1px solid rgb(231,240,254);
+    max-width:800px;
+    margin-bottom: 30px;
+}
+
+.footsmall{
+    color:rgb(145,145,145);
+    font-size:12px;
+}
+
+.foot-final{
+    text-align:center;
+    margin-bottom:30px;
+
+}
